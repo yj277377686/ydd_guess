@@ -1,0 +1,23 @@
+.thumn {
+	background: #D20001 !important;
+}
+.btn-thumn {
+	background: #D20001;
+	width: 80%;
+	padding: 8px 0;
+	text-align: center;
+	color: #fff;
+	margin: 30px auto 0;
+	border-radius: 4px;	
+}
+
+.bodybg {
+	width: 100%;
+	background-color: #f7f7f7;
+}
+
+.texthidden {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
