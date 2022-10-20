@@ -138,7 +138,7 @@
 	}
 	page {
 		min-height: 100vh;
-		display: flex;
+		/* display: flex; */
 		font-size: 16px;
 		box-sizing: border-box;
 	}

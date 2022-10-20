@@ -4,7 +4,9 @@
 			"path": "pages/login/login",
 			"style": {
 				"navigationBarTitleText": "登录/注册",
-				"app-plus":{"titleNView": false},   //不显示头部导航栏
+				"app-plus": {
+					"titleNView": false
+				}, //不显示头部导航栏
 				"enablePullDownRefresh": false
 			}
 		},
@@ -12,14 +14,19 @@
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "答题竞猜",
-				"app-plus":{"titleNView": false},   //不显示头部导航栏
+				"app-plus": {
+					"titleNView": false
+				}, //不显示头部导航栏
 				"enablePullDownRefresh": false
 			}
-		},{
+		},
+		{
 			"path": "pages/room_ty/room_ty",
 			"style": {
 				"navigationBarTitleText": "体验区",
-			    "app-plus":{"titleNView": false},   //不显示头部导航栏
+				"app-plus": {
+					"titleNView": false
+				}, //不显示头部导航栏
 				"enablePullDownRefresh": false
 			}
 		},
@@ -27,7 +34,9 @@
 			"path": "pages/room_cj/room_cj",
 			"style": {
 				"navigationBarTitleText": "初级区",
-			    "app-plus":{"titleNView": false},   //不显示头部导航栏
+				"app-plus": {
+					"titleNView": false
+				}, //不显示头部导航栏
 				"enablePullDownRefresh": false
 			}
 		},
@@ -35,7 +44,9 @@
 			"path": "pages/room_jj/room_jj",
 			"style": {
 				"navigationBarTitleText": "竞技区",
-			    "app-plus":{"titleNView": false},   //不显示头部导航栏
+				"app-plus": {
+					"titleNView": false
+				}, //不显示头部导航栏
 				"enablePullDownRefresh": false
 			}
 		},
@@ -43,7 +54,9 @@
 			"path": "pages/room_gj/room_gj",
 			"style": {
 				"navigationBarTitleText": "高级区",
-			    "app-plus":{"titleNView": false},   //不显示头部导航栏
+				"app-plus": {
+					"titleNView": false
+				}, //不显示头部导航栏
 				"enablePullDownRefresh": false
 			}
 		},
@@ -51,7 +64,9 @@
 			"path": "pages/xuangou/xuangou",
 			"style": {
 				"navigationBarTitleText": "交易区",
-				"app-plus":{"titleNView": false},   //不显示头部导航栏
+				"app-plus": {
+					"titleNView": false
+				}, //不显示头部导航栏
 				"enablePullDownRefresh": false
 			}
 		},
@@ -59,133 +74,207 @@
 			"path": "pages/mine/mine",
 			"style": {
 				"navigationBarTitleText": "我的",
-				"app-plus":{"titleNView": false},   //不显示头部导航栏
+				"app-plus": {
+					"titleNView": false
+				}, //不显示头部导航栏
 				"enablePullDownRefresh": false
 			}
-		},{
+		},
+		{
 			"path": "pages/rechargeRecord/rechargeRecord",
 			"style": {
 				"navigationBarTitleText": "充值记录",
 				// "app-plus":{"titleNView": false},   //不显示头部导航栏
 				"enablePullDownRefresh": false
 			}
-		},{
+		},
+		{
 			"path": "pages/userInfo/userInfo",
 			"style": {
 				"navigationBarTitleText": "个人资料",
 				// "app-plus":{"titleNView": false},   //不显示头部导航栏
 				"enablePullDownRefresh": false
 			}
-		},{
+		},
+		{
 			"path": "pages/gameRoom/gameRoom",
 			"style": {
 				"navigationBarTitleText": "答题区",
-				"app-plus":{"titleNView": false},   //不显示头部导航栏
+				"app-plus": {
+					"titleNView": false
+				}, //不显示头部导航栏
 				"enablePullDownRefresh": false
 			}
-		},{
+		},
+		{
 			"path": "pages/sharePoster/sharePoster",
 			"style": {
 				"navigationBarTitleText": "推广海报",
 				"enablePullDownRefresh": false
 			}
-		},{
+		},
+		{
 			"path": "pages/myfans/myfans",
 			"style": {
 				"navigationBarTitleText": "我的粉丝",
 				"enablePullDownRefresh": false
 			}
-		},{
+		},
+		{
 			"path": "pages/distribution/distribution",
 			"style": {
 				"navigationBarTitleText": "分销推广",
-				"app-plus":{"titleNView": false},   //不显示头部导航栏
+				"app-plus": {
+					"titleNView": false
+				}, //不显示头部导航栏
 				"enablePullDownRefresh": false
 			}
-		},{
+		},
+		{
 			"path": "pages/distrule/distrule",
 			"style": {
 				"navigationBarTitleText": "分销规则",
 				"enablePullDownRefresh": false
 			}
-		},{
+		},
+		{
 			"path": "pages/distOrder/distOrder",
 			"style": {
 				"navigationBarTitleText": "分销订单",
 				"enablePullDownRefresh": false
 			}
-		},{
+		},
+		{
 			"path": "pages/commissionDetail/commissionDetail",
 			"style": {
 				"navigationBarTitleText": "佣金明细",
 				"enablePullDownRefresh": false
 			}
-		},{
+		},
+		{
 			"path": "pages/aboutus/aboutus",
 			"style": {
 				"navigationBarTitleText": "关于我们",
 				"enablePullDownRefresh": false
 			}
-	   },{
+		},
+		{
 			"path": "pages/yinsi/yinsi",
 			"style": {
 				"navigationBarTitleText": "隐私政策",
 				"enablePullDownRefresh": false
 			}
-	   },{
+		},
+		{
 			"path": "pages/fuwu/fuwu",
 			"style": {
 				"navigationBarTitleText": "服务协议",
 				"enablePullDownRefresh": false
 			}
-	   },{
+		},
+		{
 			"path": "pages/mysale/mysale",
 			"style": {
 				"navigationBarTitleText": "我的挂卖",
 				"enablePullDownRefresh": false
 			}
-	   },{
+		},
+		{
 			"path": "pages/myWallet/myWallet",
 			"style": {
 				"navigationBarTitleText": "我的余额",
 				"enablePullDownRefresh": false
 			}
-	   },{
+		},
+		{
 			"path": "pages/balanceDetail/balanceDetail",
 			"style": {
 				"navigationBarTitleText": "余额明细",
 				"enablePullDownRefresh": false
 			}
-	   },{
+		},
+		{
 			"path": "pages/myguess/myguess",
 			"style": {
 				"navigationBarTitleText": "竞猜记录",
 				"enablePullDownRefresh": false
 			}
-	   },{
+		},
+		{
 			"path": "pages/kefu/kefu",
 			"style": {
 				"navigationBarTitleText": "联系客服",
 				"enablePullDownRefresh": false
 			}
-	   },{
+		},
+		{
 			"path": "pages/mianze/mianze",
 			"style": {
 				"navigationBarTitleText": "免责协议",
 				"enablePullDownRefresh": false
 			}
-	   },{
+		},
+		{
 			"path": "pages/roomlist/roomlist",
 			"style": {
 				"navigationBarTitleText": "答题竞猜",
 				// "app-plus":{"titleNView": false},   //不显示头部导航栏
 				"enablePullDownRefresh": false
 			}
-		},{
+		},
+		{
 			"path": "pages/feedBack/feedBack",
 			"style": {
 				"navigationBarTitleText": "问题反馈",
 				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/trader/index",
+			"style": {
+				"navigationBarTitleText": "交易员",
+				"navigationBarBackgroundColor": "#df3927",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/trader/trader",
+			"style": {
+				"navigationBarTitleText": "交易员",
+				"navigationBarBackgroundColor": "#df3927",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/trader/purchaseQuiz",
+			"style": {
+				"navigationBarTitleText": "购买竞猜币",
+				"navigationBarBackgroundColor": "#df3927",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/trader/collectionCode",
+			"style": {
+				"navigationBarTitleText": "收款码",
+				"navigationBarBackgroundColor": "#df3927",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/trader/collectionCodeTwo",
+			"style": {
+				"navigationBarTitleText": "收款码",
+				"navigationBarBackgroundColor": "#df3927",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/trader/billingDetails",
+			"style": {
+				"navigationBarTitleText": "账单详情",
+				"navigationBarBackgroundColor": "#df3927",
+				"navigationBarTextStyle": "white"
 			}
 		}
 	],

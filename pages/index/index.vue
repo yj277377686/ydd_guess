@@ -99,7 +99,7 @@
 						{title:'我的钱包',icon:'/static/img/index_img3.png',url:'/pages/myWallet/myWallet'},
 						{title:'推广中心',icon:'/static/img/index_img4.png',url:'/pages/distribution/distribution'},
 						{title:'反馈',icon:'/static/img/index_img5.png',url:'/pages/feedBack/feedBack'},
-						{title:'交易员',icon:'/static/img/index_img6.png',url:''},]
+						{title:'交易员',icon:'/static/img/index_img6.png',url:'/pages/trader/index'},]
 			}
 		},
 		mixins: [],
