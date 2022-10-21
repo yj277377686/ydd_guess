@@ -199,7 +199,7 @@
 	.contents{
 		width: 100%;
 		min-height: 100vh;
-		background: url('/static/img/tyfj.png') no-repeat left top;
+		background: url('/static/img/cjfj.png') no-repeat left top;
 		background-size: 100% 100%;
 	}
 </style>

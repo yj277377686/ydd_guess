@@ -59,7 +59,11 @@
 		computed: mapState(['forcedLogin']),
 		mixins: [],
 		onShow() {
-		   
+		   if(uni.getStorageSync('token')){
+			   uni.redirectTo({
+				  url:'/pages/index/index'
+			   })
+		   }
 		},
 		created () {
 		},
@@ -227,7 +231,7 @@
 		background: url('/static/img/fuxy.png') no-repeat top left;
 		background-size: 100% 100%;
 		font-size: 34rpx;
-		color: #002C76;
+		color: #DF3927 ;
 		justify-content: center;
 	}
 	.boxContent{
@@ -258,7 +262,7 @@
 		height: 90rpx;
 		justify-content: center;
 		color: #fff;
-		background-color: #002C76;
+		background-color:#DF3927 ;
 		border-radius: 45rpx;
 		font-size: 32rpx;
 	}
@@ -316,7 +320,7 @@
 	}
 	.lg{
 		padding-bottom: 10rpx;
-		border-bottom: 8rpx solid #002C76;
+		border-bottom: 8rpx solid #DF3927;
 	}
 	.titles{
 		width: 100%;

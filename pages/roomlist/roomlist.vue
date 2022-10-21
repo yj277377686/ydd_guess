@@ -167,7 +167,6 @@
 		width: 100%;
 		height: 100%;
 		min-height: 3258rpx;
-		background: url('/static/img/indexbg.png') no-repeat left top;
 		background-size: 100% 100%;
 		padding: 220rpx 40rpx 60rpx 40rpx;
 	}

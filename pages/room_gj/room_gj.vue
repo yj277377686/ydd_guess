@@ -5,7 +5,7 @@
 		</view>
 		<view class="roomList answerBox ui-cell">
 			<view class="listTop">
-			<view class="roomItems room_three ui-cell">
+			<view class="roomItems room_four ui-cell">
 				<view class="roomName color_bai">高级区</view>
 				<view class="roomMsg color_bai ope">竞猜币：50000-100000</view>
 			</view>
@@ -199,7 +199,7 @@
 	.contents{
 		width: 100%;
 		min-height: 100vh;
-		background: url('/static/img/tyfj.png') no-repeat left top;
+		background: url('/static/img/gjfj.png') no-repeat left top;
 		background-size: 100% 100%;
 	}
 </style>
