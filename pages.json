@@ -276,6 +276,16 @@
 				"navigationBarBackgroundColor": "#df3927",
 				"navigationBarTextStyle": "white"
 			}
+		},
+		{
+			"path": "pages/experienceAreaGameRoom/experienceAreaGameRoom",
+			"style": {
+				"navigationBarTitleText": "答题区",
+				"app-plus": {
+					"titleNView": false
+				}, //不显示头部导航栏
+				"enablePullDownRefresh": false
+			}
 		}
 	],
 	// "tabBar": {

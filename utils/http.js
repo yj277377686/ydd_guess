@@ -1,30 +1,32 @@
 import store from '../store/index.js';
-const baseUrl = 'https://ydd.huangguaxiong.cn/api/'; // development开发环境
-// const baseUrl = 'http://localhost:8080/api/'; // development本地环境
-const httpRequest = (opts, data ,token) => {
-	if(!token){
-	   token= '';
+// const baseUrl = 'https://ydd.huangguaxiong.cn/api/'; // development开发环境
+// const baseUrl = 'http://192.168.2.6:80/api/'; // development本地环境
+// const baseUrl = 'http://www.ydd-test.com/api/'; // development本地环境
+const baseUrl = 'https://2f717468a2.oicp.vip/api/'; // development本地环境
+const httpRequest = (opts, data, token) => {
+	if (!token) {
+		token = '';
 	}
 	let httpDefaultOpts = {
-		url: baseUrl+opts.url,
+		url: baseUrl + opts.url,
 		data: data,
-		beforeSend :function(xmlHttp){
-			xmlHttp.setRequestHeader("If-Modified-Since","0"); 
-			xmlHttp.setRequestHeader("Cache-Control","no-cache");
+		beforeSend: function (xmlHttp) {
+			xmlHttp.setRequestHeader("If-Modified-Since", "0");
+			xmlHttp.setRequestHeader("Cache-Control", "no-cache");
 		},
 		method: opts.method,
 		header: opts.method == 'GET' ? {
-		'X-Requested-With': 'XMLHttpRequest',
-		"Accept": "application/json",
-		"Content-Type": "application/json; charset=UTF-8",
-		"token":token
-	} : { 
-	   'content-type': 'application/x-www-form-urlencoded',
-	   "token":token
-	},
+			'X-Requested-With': 'XMLHttpRequest',
+			"Accept": "application/json",
+			"Content-Type": "application/json; charset=UTF-8",
+			"token": token
+		} : {
+			'content-type': 'application/x-www-form-urlencoded',
+			"token": token
+		},
 		dataType: 'json',
 	}
-	let promise = new Promise(function(resolve, reject) {
+	let promise = new Promise(function (resolve, reject) {
 		uni.request(httpDefaultOpts).then(
 			(res) => {
 				// console.log(res[1].statusCode)
@@ -43,30 +45,30 @@ const httpRequest = (opts, data ,token) => {
 	return promise
 }
 
-export const post = (url, props,token) => {
+export const post = (url, props, token) => {
 	return httpRequest({
 		url,
 		method: 'POST'
-	}, props,token).then(res => {
+	}, props, token).then(res => {
 		return res.data
 	}, err => {
 		// console.log('全局错误处理')
-		return  errorHandle(err)
+		return errorHandle(err)
 	})
 }
 
-export const get = (url, props,token) => {
+export const get = (url, props, token) => {
 	return httpRequest({
 		url,
 		method: 'GET'
-	}, props,token).then(res => {
+	}, props, token).then(res => {
 		return res.data
 	}, err => {
-		return  errorHandle(err)
+		return errorHandle(err)
 	})
 }
 
-function errorHandle (err) {
+function errorHandle(err) {
 	if (err.statusCode !== 200) {
 		return {
 			code: err.statusCode,
