@@ -60,7 +60,7 @@
 		mixins: [],
 		onShow() {
 		   if(uni.getStorageSync('token')){
-			   uni.redirectTo({
+			   uni.redirectTo ({
 				  url:'/pages/index/index'
 			   })
 		   }

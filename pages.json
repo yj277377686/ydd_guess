@@ -183,6 +183,9 @@
 			"path": "pages/myWallet/myWallet",
 			"style": {
 				"navigationBarTitleText": "我的余额",
+				"app-plus": {
+					"titleNView": false
+				}, //不显示头部导航栏
 				"enablePullDownRefresh": false
 			}
 		},
